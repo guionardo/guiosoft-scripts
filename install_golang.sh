@@ -13,8 +13,8 @@ CURL_FILE=""
 function curl_get() {
     echo -n "Downloading: $1"
     tmpfile=$(mktemp /tmp/install_golang.XXXXXX)
-    result=$(eval curl -L -o $tmpfile -s -w "%{http_code}" --url "$1")
-    if [ $result -ne 200 ]; then
+    result=$(eval curl -L -o "$tmpfile" -s -w "%{http_code}" --url "$1")
+    if [ "$result" -ne "200" ]; then
         echo " - ERRO $result"
     else
         echo " - OK"
@@ -36,12 +36,12 @@ function verifica_env() {
 function get_release() {
     echo "Obtendo dados da última release..."
     curl_get "https://golang.org/dl/"
-    if [ $CURL_RESULT -eq 200 ]; then
+    if [ "$CURL_RESULT" -eq "200" ]; then
         re='<a class=\"download downloadBox\" href=\"(\/dl\/go.*.linux-amd64.tar.gz)">'
-        gourl=$(eval cat $CURL_FILE | grep -Eo "$re")
+        gourl=$(eval cat "$CURL_FILE" | grep -Eo "$re")
         [[ $gourl =~ href=\"([^\"]*)\" ]] && RELEASE_URL="https://golang.org${BASH_REMATCH[1]}"
-        RELEASE_VERSION=$(eval getversion $RELEASE_URL)
-        RELEASE_FILENAME=$(eval basename $RELEASE_URL)
+        RELEASE_VERSION=$(eval getversion "$RELEASE_URL")
+        RELEASE_FILENAME=$(eval basename "$RELEASE_URL")
         echo "Golang última release: $RELEASE_VERSION"
     else
         echo "Não foi possível obter a última release do go"
