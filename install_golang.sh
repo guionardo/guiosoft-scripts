@@ -2,7 +2,6 @@
 
 RELEASE_VERSION=""
 RELEASE_URL=""
-RELEASE_FILENAME=""
 LOCAL_VERSION=""
 LOCAL_BIN=""
 LOCAL_PATH=""
@@ -41,12 +40,11 @@ function get_release() {
         gourl=$(eval cat "$CURL_FILE" | grep -Eo "$re")
         [[ $gourl =~ href=\"([^\"]*)\" ]] && RELEASE_URL="https://golang.org${BASH_REMATCH[1]}"
         RELEASE_VERSION=$(eval getversion "$RELEASE_URL")
-        RELEASE_FILENAME=$(eval basename "$RELEASE_URL")
         echo "Golang última release: $RELEASE_VERSION"
     else
         echo "Não foi possível obter a última release do go"
     fi
-    unlink $CURL_FILE
+    unlink "$CURL_FILE"
 }
 
 function get_local() {
@@ -58,21 +56,21 @@ function get_local() {
     fi
 
     LOCAL_BIN=$bin
-    LOCAL_PATH=$(eval dirname $bin)
-    LOCAL_PATH=$(eval dirname $LOCAL_PATH)
-    version="$(eval $bin version)"
+    LOCAL_PATH=$(eval dirname "$bin")
+    LOCAL_PATH=$(eval dirname "$LOCAL_PATH")
+    version="$(eval "$bin" version)"
     LOCAL_VERSION=$(eval getversion "$version")
 
     echo "Golang local: $LOCAL_VERSION @ $LOCAL_PATH"
 }
 
 function backup_local() {
-    if [ -z $LOCAL_PATH ]; then
+    if [ -z "$LOCAL_PATH" ]; then
         return
     fi
     folder_backup="${LOCAL_PATH}_$LOCAL_VERSION"
     echo "Efetuando backup $LOCAL_PATH -> $folder_backup"
-    if sudo mv -v $LOCAL_PATH $folder_backup | grep -q .; then
+    if sudo mv -v "$LOCAL_PATH" "$folder_backup" | grep -q .; then
         return
     fi
     echo "Erro ao efetuar o backup para $folder_backup"
@@ -98,9 +96,9 @@ function untar_golang() {
 }
 function download_and_untar() {
     curl_get "$RELEASE_URL"
-    if [ $CURL_RESULT -ne 200 ]; then
+    if [ "$CURL_RESULT" -ne 200 ]; then
         ERRO=1
-        unlink $CURL_FILE
+        unlink "$CURL_FILE"
         return
     fi
     install_path=$(eval dirname "$LOCAL_PATH")
