@@ -89,8 +89,8 @@ function download_golang() {
 }
 
 function untar_golang() {
-    install_path=$(eval dirname $LOCAL_PATH)
-    if sudo tar -C $install_path -xzf $CURL_FILE; then
+    install_path=$(eval dirname "$LOCAL_PATH")
+    if sudo tar -C $install_path -xzf "$CURL_FILE"; then
         return
     fi
     echo "Erro ao descompactar o arquivo"
@@ -103,14 +103,14 @@ function download_and_untar() {
         unlink $CURL_FILE
         return
     fi
-    install_path=$(eval dirname $LOCAL_PATH)
-    if sudo tar -C $install_path -xzf $CURL_FILE; then
+    install_path=$(eval dirname "$LOCAL_PATH")
+    if sudo tar -C "$install_path" -xzf "$CURL_FILE"; then
         return
     fi
     echo "Erro ao descompactar o arquivo"
     ERRO=1
 
-    unlink $CURL_FILE
+    unlink "$CURL_FILE"
 }
 
 function getversion() {
@@ -120,8 +120,8 @@ function getversion() {
 get_release
 get_local
 
-if [ ! -z $LOCAL_BIN ]; then
-    if [ $RELEASE_VERSION == $LOCAL_VERSION ]; then
+if [ -n $LOCAL_BIN ]; then
+    if [ "$RELEASE_VERSION" == "$LOCAL_VERSION" ]; then
         echo "Você já tem a última release do golang"
         exit 0
     fi
