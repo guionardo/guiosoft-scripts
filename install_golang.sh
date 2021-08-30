@@ -152,6 +152,6 @@ fi
 get_local
 echo "Golang atualizado para versão ${LOCAL_VERSION}"
 
-verica_env
+verifica_env
 
 exit 0

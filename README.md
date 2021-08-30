@@ -5,7 +5,7 @@ Automation scripts for every day
 
 [![Shell Lint](https://github.com/guionardo/guiosoft-scripts/actions/workflows/shell.yml/badge.svg)](https://github.com/guionardo/guiosoft-scripts/actions/workflows/shell.yml)
 
-## Install golang (for debian, ubuntu, etc)
+## Install (update) golang (for debian, ubuntu, etc)
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install_golang.sh)
