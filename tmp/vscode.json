@@ -1,0 +1,349 @@
+{
+    "products": [
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeUserSetup-ia32-1.59.1.exe",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "6e3d45434ba245a2507eb4f7638f9f87dfd93965",
+            "timestamp": 1629373952829,
+            "sha256hash": "fd9f998585d0359fbde9ba6aa0e0e256b4bfe0919e58d0d4ed8eed7cb6181ea5",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-user",
+                "prettyname": "Windows User Installer (32 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-ia32-1.59.1.exe",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "5a50d719f5b62d8a14042a6142142b5c6fe68c47",
+            "timestamp": 1629373952829,
+            "sha256hash": "ab8a3dfb9f927facf59b2ddc40e770648eae1db1ebedc96aad3a08c62516b3fb",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32",
+                "prettyname": "Windows System Installer (32 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCode-win32-ia32-1.59.1.zip",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "fb86ee5fc1fbf1d683a413a927306a4206aac1f6",
+            "timestamp": 1629373952829,
+            "sha256hash": "f6dfdeec49e3a4a87170d22dfbaf481e41def8f617893ecf11999ee162bd9ca6",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-archive",
+                "prettyname": "Windows .zip (32 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeUserSetup-x64-1.59.1.exe",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "d33ccd286f979a65c8ef4f08f472f21e0f3317c3",
+            "timestamp": 1629373952829,
+            "sha256hash": "4d83a2dd563d0e61dd506d2bf577c73a4e092d5e5c308335f4f56e9145e36250",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-x64-user",
+                "prettyname": "Windows User Installer (64 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-x64-1.59.1.exe",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "8829e6e9ce649917f0d207194494046f3ea66665",
+            "timestamp": 1629373952829,
+            "sha256hash": "8065963e6251b91cf938cbb195cd912a56cb4f514c81b0a541aa42404586b813",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-x64",
+                "prettyname": "Windows System Installer (64 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCode-win32-x64-1.59.1.zip",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "1861ce4152e9514535dbf04501dc61511fe12e42",
+            "timestamp": 1629373952829,
+            "sha256hash": "6baff6f605fb347e42269b50e28947cfa556ee8f96cb33f29d1dd79033afed62",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-x64-archive",
+                "prettyname": "Windows .zip (64 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeUserSetup-arm64-1.59.1.exe",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "cf24de36ffc5537eafd269d886fb46422f5f98ec",
+            "timestamp": 1629373952829,
+            "sha256hash": "6b4cb199dc5d6fe61298443fe36c0df7522b10b603ed91aca74fe7661a742c14",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-arm64-user",
+                "prettyname": "Windows User Installer (64-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCode-win32-arm64-1.59.1.zip",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "8d5ecbeda4aa9422de5b8f37ef2e8cc485562ff8",
+            "timestamp": 1629373952829,
+            "sha256hash": "82de57901f88ce0374fec3d65691466194dcec47999639048d8b82328665180e",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-arm64-archive",
+                "prettyname": "Windows .zip (64-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-arm64-1.59.1.exe",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "288c961c500300cdb5518bd01620521c33d12482",
+            "timestamp": 1629373952829,
+            "sha256hash": "64d3ab9a2f3fb086c402f4a4935fea6443c98c84be0a9c89f0a5a45a2068e8ea",
+            "supportsFastUpdate": true,
+            "build": "stable",
+            "platform": {
+                "os": "win32-arm64",
+                "prettyname": "Windows System Installer (64-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/c7d83e57cd18f18026a8162d042843bda1bcf21f/code_1.35.1-1560349847_i386.deb",
+            "name": "1.35.1",
+            "version": "c7d83e57cd18f18026a8162d042843bda1bcf21f",
+            "productVersion": "1.35.1",
+            "hash": "f402ffe10ba3758306b46fb261ac83c19010045a",
+            "timestamp": 1560349830190,
+            "sha256hash": "d90f13b9e4004928fdb51791ff586dc7f4b43f3d00080dac0be5f7cf6261d0c2",
+            "build": "stable",
+            "platform": {
+                "os": "linux-deb-ia32",
+                "prettyname": "Linux .deb (32 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/c7d83e57cd18f18026a8162d042843bda1bcf21f/code-1.35.1-1560349971.el7.i386.rpm",
+            "name": "1.35.1",
+            "version": "c7d83e57cd18f18026a8162d042843bda1bcf21f",
+            "productVersion": "1.35.1",
+            "hash": "5f27d9b1c59ba1fafedd5886cd8c1cedf9c0b965",
+            "timestamp": 1560349830190,
+            "sha256hash": "310c58ff934348106d9b020c1dbd833d5b747eed8fbcff123a0d202ed630c1e4",
+            "build": "stable",
+            "platform": {
+                "os": "linux-rpm-ia32",
+                "prettyname": "Linux .rpm (32 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/c7d83e57cd18f18026a8162d042843bda1bcf21f/code-stable-1560349812.tar.gz",
+            "name": "1.35.1",
+            "version": "c7d83e57cd18f18026a8162d042843bda1bcf21f",
+            "productVersion": "1.35.1",
+            "hash": "0c94f65adffa4aaadc984ca07227d61df7fefc05",
+            "timestamp": 1560349830190,
+            "sha256hash": "64360439cc2fa596838062f7e6f9757b79d4b775a564f18bad6cbad154bf850c",
+            "build": "stable",
+            "platform": {
+                "os": "linux-ia32",
+                "prettyname": "Linux .tar.gz (32 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code_1.59.1-1629375198_amd64.deb",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "f0211b887b784c9a1e93b1c08c13845b24503313",
+            "timestamp": 1629373952829,
+            "sha256hash": "417fdb32aa3c1116439de3f88a7c173c256efbdbe277a08940431670cacb7392",
+            "build": "stable",
+            "platform": {
+                "os": "linux-deb-x64",
+                "prettyname": "Linux .deb (64 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code-1.59.1-1629375274.el8.x86_64.rpm",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "d8f21d07f5549c9e5033f29fa7a5f31e7dcf72a1",
+            "timestamp": 1629373952829,
+            "sha256hash": "26556c99f126b6acea14437b28d338d9c5859f089b173f10c4143ade75952931",
+            "build": "stable",
+            "platform": {
+                "os": "linux-rpm-x64",
+                "prettyname": "Linux .rpm (64 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code-stable-x64-1629375493.tar.gz",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "496d88e851e642723513c23f4edde76d64f8e3eb",
+            "timestamp": 1629373952829,
+            "sha256hash": "9b08d8e8f5e9a0dc143d5849d9de21f40dcb3254c7abc953d28a5d71f3b35744",
+            "build": "stable",
+            "platform": {
+                "os": "linux-x64",
+                "prettyname": "Linux .tar.gz (64 bit)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code-stable-armhf-1629374303.tar.gz",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "28144ca371545b2725fb0248504ba11658964fab",
+            "timestamp": 1629373952829,
+            "sha256hash": "27206a7f1aa5024faef992b4d69eadb8b3359a1fc50bf5dfd86ad91c5404cb1f",
+            "build": "stable",
+            "platform": {
+                "os": "linux-armhf",
+                "prettyname": "Linux .tar.gz (32-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code_1.59.1-1629374059_armhf.deb",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "7322bc0044ca2c43099cb264ba356fb1853a39c3",
+            "timestamp": 1629373952829,
+            "sha256hash": "2c8a6163eb543530adfae2e3e8c5bea530105a8767e758f518d4efb668e06284",
+            "build": "stable",
+            "platform": {
+                "os": "linux-deb-armhf",
+                "prettyname": "Linux .deb (32-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code-1.59.1-1629374110.el8.armv7hl.rpm",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "b7e0b24aed80c0b49c26caedc451a3f98db302c4",
+            "timestamp": 1629373952829,
+            "sha256hash": "6f2e156507cb98952e5ff34441d69ab904a9057dabe3343f2193aea51a253876",
+            "build": "stable",
+            "platform": {
+                "os": "linux-rpm-armhf",
+                "prettyname": "Linux .rpm (32-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code-stable-arm64-1629374449.tar.gz",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "9e5c311027d8bff79d2d47a50a9f6fe384a74dfe",
+            "timestamp": 1629373952829,
+            "sha256hash": "fb7484ebd82c1ef97b918c530710a5a87363ef85818a8cf8402525d78482e148",
+            "build": "stable",
+            "platform": {
+                "os": "linux-arm64",
+                "prettyname": "Linux .tar.gz (64-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code_1.59.1-1629374148_arm64.deb",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "bef4c2839e4a109b693eae51184182840d951070",
+            "timestamp": 1629373952829,
+            "sha256hash": "f21fc4cd97f3ab0fa54aca67745ecc9a8f686bd2979b50c5626484c625b13875",
+            "build": "stable",
+            "platform": {
+                "os": "linux-deb-arm64",
+                "prettyname": "Linux .deb (64-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/code-1.59.1-1629374228.el8.aarch64.rpm",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "5bcfd6fabe2f283cf1e651a975a806571dd0c3dd",
+            "timestamp": 1629373952829,
+            "sha256hash": "94485e0d8d77c78fdc23a6a3951d47d8a284b5048257cb1a83668933fe4fb0b3",
+            "build": "stable",
+            "platform": {
+                "os": "linux-rpm-arm64",
+                "prettyname": "Linux .rpm (64-bit ARM)"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCode-darwin-arm64.zip",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "de495aa73a11a082ff2bbfd02074631e3c280f52",
+            "timestamp": 1629373952829,
+            "sha256hash": "2891a0610c34021f571ec5cacccabec01f45ce766b10c72d447a5790d00f176e",
+            "build": "stable",
+            "platform": {
+                "os": "darwin-arm64",
+                "prettyname": "Mac for Apple Silicon"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCode-darwin.zip",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "1f9ac484b5596c73b11c1279ae1b5cc936013af0",
+            "timestamp": 1629373952829,
+            "sha256hash": "ef26914bec83b770d2a8f1226e08ed03874c7b529528797997a91a5d1a13d1de",
+            "build": "stable",
+            "platform": {
+                "os": "darwin",
+                "prettyname": "Mac for Intel Chip"
+            }
+        },
+        {
+            "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCode-darwin-universal.zip",
+            "name": "1.59.1",
+            "version": "3866c3553be8b268c8a7f8c0482c0c0177aa8bfa",
+            "productVersion": "1.59.1",
+            "hash": "bf1170e65c0da682704f875e53a91c1689b7b74a",
+            "timestamp": 1629373952829,
+            "sha256hash": "ba6e6884b612d9280d85d605302249d80abfcd9de1f9240abd7765f688a3e6c3",
+            "build": "stable",
+            "platform": {
+                "os": "darwin-universal",
+                "prettyname": "Mac Universal Build"
+            }
+        }
+    ]
+}

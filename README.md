@@ -10,3 +10,9 @@ Automation scripts for every day
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install_golang.sh)
 ```
+
+## Install vscode
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install_vscode.sh)
+```
