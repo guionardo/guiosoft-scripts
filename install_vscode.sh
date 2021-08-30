@@ -41,7 +41,7 @@ function get_vscode_release() {
 }
 
 function download_vscode() {
-    if [ -z $VSCODE_RELEASE_URL ]; then
+    if [ -z "$VSCODE_RELEASE_URL" ]; then
         echo "URL para download não identificada"
         exit 1
     fi
@@ -52,6 +52,8 @@ function download_vscode() {
     if [ $? -eq 0 ]; then
         echo "Download OK"
         VSCODE_RELEASE_FILE=$output
+        echo "Você pode efetuar a instalação com o comando:"
+        echo "sudo dpkg -i $output"
     fi
 }
 
@@ -83,7 +85,7 @@ vercomp() {
 get_vscode_local
 get_vscode_release
 
-vercomp $VSCODE_LOCAL_VERSION $VSCODE_RELEASE_VERSION
+vercomp "$VSCODE_LOCAL_VERSION" "$VSCODE_RELEASE_VERSION"
 case $? in
 0)
     echo "Versão $VSCODE_LOCAL_VERSION está atualizada"
