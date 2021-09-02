@@ -1,4 +1,5 @@
 # guiosoft-scripts
+
 Automation scripts for every day
 
 [![CodeQL](https://github.com/guionardo/guiosoft-scripts/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/guionardo/guiosoft-scripts/actions/workflows/codeql-analysis.yml)
@@ -10,6 +11,8 @@ Automation scripts for every day
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install_golang.sh)
 ```
+
+![install-golang](docs/install_golang.gif)
 
 ## Install vscode
 
