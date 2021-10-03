@@ -111,6 +111,10 @@ function download_and_untar() {
 }
 
 function getversion() {
+    if [[ "$@" =~ ([0-9]+\.[0-9]{1,2}+\.[0-9]{1,2}) ]]; then
+        echo "${BASH_REMATCH[0]}"
+        return
+    fi
     [[ "$@" =~ ([0-9]+\.[0-9]{1,2}) ]] && echo "${BASH_REMATCH[0]}"
 }
 
