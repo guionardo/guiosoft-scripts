@@ -26,13 +26,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       
-      - name: List files
-        run: tree .
-
       # Runs a set of commands using the runners shell
       - name: Run tests
-        env:
-          SRC: "../src"
         run: |
           bash <(curl -s https://raw.githubusercontent.com/pgrange/bash_unit/master/install.sh)
           ./bash_unit tests/test_*
