@@ -7,10 +7,10 @@ on:
     - cron: "28 0,12 * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  build:
+  fetch:
 
     runs-on: ubuntu-latest
 
