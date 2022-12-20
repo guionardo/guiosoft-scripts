@@ -7,6 +7,21 @@ Automation scripts for every day
 [![Package Versions](https://github.com/guionardo/guiosoft-scripts/actions/workflows/package-versions.yml/badge.svg)](https://github.com/guionardo/guiosoft-scripts/actions/workflows/package-versions.yml)
 [![New release](https://github.com/guionardo/guiosoft-scripts/actions/workflows/new_release.yml/badge.svg)](https://github.com/guionardo/guiosoft-scripts/actions/workflows/new_release.yml)
 
+## Generic updater
+
+Add this alias to your .bashrc (or equivalent)
+
+```
+alias update="bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install.sh)"
+```
+
+You can run this: 
+
+```bash
+update vscode
+```
+
+
 ## Install (update) golang (for debian, ubuntu, etc)
 
 ```bash

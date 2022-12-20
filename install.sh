@@ -18,24 +18,24 @@ function assertBins() {
 
 function getRelease() {
     if [ -z "$1" ]; then
-        echo "Release not informed"
+        echo "Missing program [golang|vscode|dbeaver]"
         exit 1
     fi
     release=$(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/versions.json | jq ".$1")
     if [ "$release" == "null" ]; then
-        echo "Release $1 not found"
+        echo "Program $1 not found"
         exit 1
     fi
     REMOTE_URL=$(echo $release | jq -r ".artifact_url")
     REMOTE_VERSION=$(echo $release | jq -r ".version")
-    echo "Release $1: $REMOTE_VERSION @ $REMOTE_URL"
+    echo "Program $1: $REMOTE_VERSION @ $REMOTE_URL"
 }
 
 function getLocal() {
-    echo "Obtendo dados de $1 local..."
+    echo "Getting data from local $1 ..."
     bin=$(eval which $1)
     if [ $? != 0 ]; then
-        echo "Não há $1 instalado localmente"
+        echo "$1 not found locally"
         return
     fi
 
@@ -63,7 +63,7 @@ function getLocal_dbeaver() {
 
 vercomp() {
     if [[ $LOCAL_VERSION == $REMOTE_VERSION ]]; then
-        echo "Versão $LOCAL_VERSION está atualizada"
+        echo "Local version is up-to-date"
         exit 1
     fi
     local IFS=.
@@ -78,35 +78,35 @@ vercomp() {
             ver2[i]=0
         fi
         if ((10#${ver1[i]} > 10#${ver2[i]})); then
-            echo "Versão $LOCAL_VERSION é mais recente do que a da release $REMOTE_VERSION"
+            echo "Local $LOCAL_VERSION is newer than remote $REMOTE_VERSION"
             exit 1
         fi
         if ((10#${ver1[i]} < 10#${ver2[i]})); then
-            echo "Versão $REMOTE_VERSION disponível"
+            echo "Newer version $REMOTE_VERSION is available"
             return
         fi
     done
-    echo "Versão $LOCAL_VERSION está atualizada"
+    echo "Local version is up-to-date"
     exit 1
 }
 
 function doUpdate_vscode() {
-    echo "Atualizando VSCode..."
-    wget -O /tmp/vscode.deb $REMOTE_URL
+    echo "Updating VSCode to $REMOTE_VERSION"
+    curl -L -o /tmp/vscode.deb $REMOTE_URL
     sudo dpkg -i /tmp/vscode.deb
     rm /tmp/vscode.deb
 }
 
 function doUpdate_dbeaver() {
-    echo "Atualizando DBeaver..."
-    wget -O /tmp/dbeaver.deb $REMOTE_URL
+    echo "Updating DBeaver to $REMOTE_VERSION"
+    curl -L -o /tmp/dbeaver.deb $REMOTE_URL
     sudo dpkg -i /tmp/dbeaver.deb
     rm /tmp/dbeaver.deb
 }
 
 function doUpdate_golang() {
-    echo "Atualizando Go..."
-    wget -O /tmp/go.tar.gz $REMOTE_URL
+    echo "Updating Golang to $REMOTE_VERSION"
+    curl -L -o /tmp/go.tar.gz $REMOTE_URL
     sudo rm -rf /usr/local/go
     sudo tar -C /usr/local -xzf /tmp/go.tar.gz
     rm /tmp/go.tar.gz
@@ -119,13 +119,13 @@ getLocal_$1
 vercomp
 
 if [ "$EUID" -ne 0 ]; then
-    echo "Por favor, execute como root"
+    echo "Please run as root"
     exit 1
 fi
 
-read -p "Deseja atualizar o $1 ${LOCAL_VERSION} -> ${REMOTE_VERSION} [S/N]?" -n 1 -r
+read -p "Do you want to update $1 ${LOCAL_VERSION} -> ${REMOTE_VERSION} [Y/N]?" -n 1 -r
 echo ""
-if [[ ! $REPLY =~ ^[Ss]$ ]]; then
+if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     exit 0
 fi
 
@@ -133,4 +133,4 @@ doUpdate_$1
 
 get_local_$1
 
-echo "Atualização concluída -> $LOCAL_VERSION"
+echo "Update done -> $LOCAL_VERSION"
