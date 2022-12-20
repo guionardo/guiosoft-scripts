@@ -124,7 +124,6 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 read -p "Do you want to update $1 ${LOCAL_VERSION} -> ${REMOTE_VERSION} [Y/N]?" -n 1 -r
-echo " "
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     exit 0
 fi
