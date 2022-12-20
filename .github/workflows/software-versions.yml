@@ -25,7 +25,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run software versions check
       run: |
-        python src/versions.py README.md        
+        python src/versions/check_versions.py README.md        
     - name: Update README.md
       uses: EndBug/add-and-commit@v9
       with:
