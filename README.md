@@ -9,10 +9,11 @@ Automation scripts for every day
 
 ## Generic updater
 
-Add this alias to your .bashrc (or equivalent)
+Add this aliases to your .bashrc (or equivalent)
 
 ```
-alias update="bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install.sh)"
+alias update="curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install.sh | sudo bash -s"
+alias sudo="sudo "
 ```
 
 You can run this:
@@ -20,6 +21,8 @@ You can run this:
 ```bash
 update vscode
 ```
+
+![vscode](docs/vscode.gif)
 
 
 ## Install (update) golang (for debian, ubuntu, etc)

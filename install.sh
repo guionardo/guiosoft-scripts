@@ -7,7 +7,7 @@ LOCAL_VERSION=""
 REMOTE_URL=""
 REMOTE_VERSION=""
 
-function assertBins() {
+assertBins() {
     for bin in $@; do
         if ! command -v $bin &>/dev/null; then
             echo "Command $bin not found"
@@ -31,14 +31,13 @@ function getRelease() {
     echo "Program $1: $REMOTE_VERSION @ $REMOTE_URL"
 }
 
-function getLocal() {
+getLocal() {
     echo "Getting data from local $1 ..."
     bin=$(eval which $1)
     if [ $? != 0 ]; then
         echo "$1 not found locally"
         return
-    fi
-
+    fi    
     LOCAL_BIN=$bin
     LOCAL_PATH=$(eval dirname "$bin")
     LOCAL_VERSION=$(eval $2)
@@ -47,15 +46,15 @@ function getLocal() {
     echo "$1 local: $LOCAL_VERSION @ $LOCAL_PATH"
 }
 
-function getLocal_golang() {
+getLocal_golang() {
     getLocal go "go version"
 }
 
-function getLocal_vscode() {
+getLocal_vscode() {
     getLocal code "code -v 2>&1 | head -n 1"
 }
 
-function getLocal_dbeaver() {
+getLocal_dbeaver() {
     user=$(logname)
     ws_prop="/home/$user/.local/share/DBeaverData/workspace6/.metadata/dbeaver-workspace.properties"
     getLocal dbeaver "cat $ws_prop | grep \"product-version\" | cut -d \"=\" -f 2"
@@ -90,29 +89,30 @@ vercomp() {
     exit 1
 }
 
-function doUpdate_vscode() {
+doUpdate_vscode() {
     echo "Updating VSCode to $REMOTE_VERSION"
     curl -L -o /tmp/vscode.deb $REMOTE_URL
-    sudo dpkg -i /tmp/vscode.deb
+    dpkg -i /tmp/vscode.deb
     rm /tmp/vscode.deb
 }
 
-function doUpdate_dbeaver() {
+doUpdate_dbeaver() {
     echo "Updating DBeaver to $REMOTE_VERSION"
     curl -L -o /tmp/dbeaver.deb $REMOTE_URL
-    sudo dpkg -i /tmp/dbeaver.deb
+    dpkg -i /tmp/dbeaver.deb
     rm /tmp/dbeaver.deb
 }
 
-function doUpdate_golang() {
+doUpdate_golang() {
     echo "Updating Golang to $REMOTE_VERSION"
     curl -L -o /tmp/go.tar.gz $REMOTE_URL
-    sudo rm -rf /usr/local/go
-    sudo tar -C /usr/local -xzf /tmp/go.tar.gz
+    rm -rf /usr/local/go
+    tar -C /usr/local -xzf /tmp/go.tar.gz
     rm /tmp/go.tar.gz
 }
 
 assertBins curl jq
+program=$1
 getRelease $1
 getLocal_$1
 
