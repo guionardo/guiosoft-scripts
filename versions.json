@@ -1,23 +1,9 @@
 {
-  "vscode": {
-    "name": "vscode",
-    "version": "1.74.2",
-    "release_name": "November 2022 Recovery 2",
-    "artifact_url": "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64",
-    "release_date": "2022-12-20 19:06:11+00:00"
-  },
-  "dbeaver": {
-    "name": "dbeaver",
-    "version": "22.3.0",
-    "release_name": "22.3.0",
-    "artifact_url": "https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb",
-    "release_date": "2022-12-08 11:30:03+00:00"
-  },
   "golang": {
     "name": "golang",
     "version": "1.19.4",
     "release_name": "1.19.4",
     "artifact_url": "https://golang.org/dl/go1.19.4.linux-amd64.tar.gz",
-    "release_date": "2022-12-23 00:00:00"
+    "release_date": "2022-12-24 00:00:00"
   }
 }
