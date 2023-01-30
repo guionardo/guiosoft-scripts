@@ -48,6 +48,6 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 
 | Name | Version | Date | Release |
 |------|---------|------|---------|
-| golang | 1.19.5 | 2023-01-29 | [1.19.5](https://golang.org/dl/go1.19.5.linux-amd64.tar.gz) |
+| golang | 1.19.5 | 2023-01-30 | [1.19.5](https://golang.org/dl/go1.19.5.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2023-01-29 12:48:15.621987](versions.json)
+[versions.json updated @ 2023-01-30 01:51:52.527981](versions.json)
