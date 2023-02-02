@@ -12,12 +12,5 @@
     "release_name": "22.3.3",
     "artifact_url": "https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb",
     "release_date": "2023-01-22 18:20:34+00:00"
-  },
-  "golang": {
-    "name": "golang",
-    "version": "1.19.5",
-    "release_name": "1.19.5",
-    "artifact_url": "https://golang.org/dl/go1.19.5.linux-amd64.tar.gz",
-    "release_date": "2023-02-01 00:00:00"
   }
 }
