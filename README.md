@@ -51,4 +51,4 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 | vscode | 1.75.0 | 2023-02-02 | [January 2023](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) |
 | dbeaver | 22.3.3 | 2023-01-22 | [22.3.3](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
 
-[versions.json updated @ 2023-02-03 12:51:27.025100](versions.json)
+[versions.json updated @ 2023-02-04 01:52:41.080402](versions.json)
