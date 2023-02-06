@@ -8,9 +8,9 @@
   },
   "dbeaver": {
     "name": "dbeaver",
-    "version": "22.3.3",
-    "release_name": "22.3.3",
+    "version": "22.3.4",
+    "release_name": "22.3.4",
     "artifact_url": "https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb",
-    "release_date": "2023-01-22 18:20:34+00:00"
+    "release_date": "2023-02-05 18:31:19+00:00"
   }
 }
