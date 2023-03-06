@@ -50,4 +50,4 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 |------|---------|------|---------|
 | golang | 1.20.1 | 2023-03-06 | [1.20.1](https://golang.org/dl/go1.20.1.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2023-03-06 02:06:44.351741](versions.json)
+[versions.json updated @ 2023-03-06 12:55:04.332924](versions.json)
