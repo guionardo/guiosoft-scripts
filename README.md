@@ -50,6 +50,6 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 |------|---------|------|---------|
 | vscode | 1.80.0 | 2023-07-06 | [June 2023 ](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) |
 | dbeaver | 23.1.1 | 2023-06-25 | [23.1.1](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
-| golang | 1.20.5 | 2023-07-08 | [1.20.5](https://golang.org/dl/go1.20.5.linux-amd64.tar.gz) |
+| golang | 1.20.5 | 2023-07-09 | [1.20.5](https://golang.org/dl/go1.20.5.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2023-07-08 12:50:17.638784](versions.json)
+[versions.json updated @ 2023-07-09 02:21:43.675219](versions.json)
