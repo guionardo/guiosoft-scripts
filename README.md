@@ -49,7 +49,7 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 | Name | Version | Date | Release |
 |------|---------|------|---------|
 | vscode | 1.81.0 | 2023-08-03 | [July 2023](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) |
-| dbeaver | 23.1.3 | 2023-07-23 | [23.1.3](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
-| golang | 1.20.7 | 2023-08-06 | [1.20.7](https://golang.org/dl/go1.20.7.linux-amd64.tar.gz) |
+| dbeaver | 23.1.4 | 2023-08-06 | [23.1.4](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
+| golang | 1.20.7 | 2023-08-07 | [1.20.7](https://golang.org/dl/go1.20.7.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2023-08-06 12:42:37.144402](versions.json)
+[versions.json updated @ 2023-08-07 01:44:00.230142](versions.json)
