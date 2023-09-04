@@ -11,7 +11,7 @@
     "version": "23.2.0",
     "release_name": "23.2.0",
     "artifact_url": "https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb",
-    "release_date": "2023-09-03 16:21:48+00:00"
+    "release_date": "2023-09-04 12:23:06+00:00"
   },
   "golang": {
     "name": "golang",
