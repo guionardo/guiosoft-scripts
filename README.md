@@ -52,4 +52,4 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 | dbeaver | 23.2.1 | 2023-09-26 | [23.2.1](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
 | golang | 1.21.2 | 2023-10-08 | [1.21.2](https://golang.org/dl/go1.21.2.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2023-10-08 01:34:37.900096](versions.json)
+[versions.json updated @ 2023-10-08 12:43:18.312621](versions.json)
