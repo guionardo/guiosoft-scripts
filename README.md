@@ -53,3 +53,5 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 | golang | 1.21.6 | 2024-01-24 | [1.21.6](https://golang.org/dl/go1.21.6.linux-amd64.tar.gz) |
 
 [versions.json updated @ 2024-01-24 12:48:14.874698](versions.json)
+
+## Testing branch
