@@ -50,9 +50,9 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 |------|---------|------|---------|
 | vscode | 1.86.0 | 2024-02-01 | [January 2024 (version 1.86)](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) |
 | dbeaver | 23.3.4 | 2024-02-04 | [23.3.4](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
-| golang | 1.21.6 | 2024-02-05 | [1.21.6](https://golang.org/dl/go1.21.6.linux-amd64.tar.gz) |
+| golang | 1.21.6 | 2024-02-06 | [1.21.6](https://golang.org/dl/go1.21.6.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2024-02-05 12:43:58.995274](versions.json)
+[versions.json updated @ 2024-02-06 01:28:58.180625](versions.json)
 
 
 ## Testing branch
