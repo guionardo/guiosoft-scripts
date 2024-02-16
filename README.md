@@ -52,7 +52,7 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 | dbeaver | 23.3.4 | 2024-02-06 | [23.3.4](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
 | golang | 1.22.0 | 2024-02-16 | [1.22.0](https://golang.org/dl/go1.22.0.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2024-02-16 01:28:31.444926](versions.json)
+[versions.json updated @ 2024-02-16 12:43:06.347522](versions.json)
 
 
 ## Testing branch
