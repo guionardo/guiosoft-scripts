@@ -44,6 +44,12 @@ bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main
 bash <(curl -s https://raw.githubusercontent.com/guionardo/guiosoft-scripts/main/install_dbeaver.sh)
 ```
 
+## Setup console
+
+In development
+
+[README](terminal_setup/README.md)
+
 ## Software Versions
 
 | Name | Version | Date | Release |
