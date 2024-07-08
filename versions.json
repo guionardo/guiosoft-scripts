@@ -8,16 +8,16 @@
   },
   "dbeaver": {
     "name": "dbeaver",
-    "version": "24.1.1",
-    "release_name": "24.1.1",
+    "version": "24.1.2",
+    "release_name": "24.1.2",
     "artifact_url": "https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb",
-    "release_date": "2024-06-23 16:52:09+00:00"
+    "release_date": "2024-07-07 16:27:06+00:00"
   },
   "golang": {
     "name": "golang",
     "version": "1.22.5",
     "release_name": "1.22.5",
     "artifact_url": "https://golang.org/dl/go1.22.5.linux-amd64.tar.gz",
-    "release_date": "2024-07-07 00:00:00"
+    "release_date": "2024-07-08 00:00:00"
   }
 }
