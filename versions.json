@@ -15,9 +15,9 @@
   },
   "golang": {
     "name": "golang",
-    "version": "1.22.5",
-    "release_name": "1.22.5",
-    "artifact_url": "https://golang.org/dl/go1.22.5.linux-amd64.tar.gz",
-    "release_date": "2024-08-06 00:00:00"
+    "version": "1.22.6",
+    "release_name": "1.22.6",
+    "artifact_url": "https://golang.org/dl/go1.22.6.linux-amd64.tar.gz",
+    "release_date": "2024-08-07 00:00:00"
   }
 }
