@@ -58,7 +58,7 @@ In development
 | dbeaver | 24.3.2 | 2025-01-05 | [24.3.2](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
 | golang | 1.23.5 | 2025-01-17 | [1.23.5](https://golang.org/dl/go1.23.5.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2025-01-17 01:52:22.402041](versions.json)
+[versions.json updated @ 2025-01-17 12:52:41.806151](versions.json)
 
 
 ## Testing branch
