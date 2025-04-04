@@ -1,10 +1,10 @@
 {
   "vscode": {
     "name": "vscode",
-    "version": "1.98.2",
-    "release_name": "February 2025 Recovery 2",
+    "version": "1.99.0",
+    "release_name": "March 2025",
     "artifact_url": "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64",
-    "release_date": "2025-03-13 16:47:44+00:00"
+    "release_date": "2025-04-04 07:18:41+00:00"
   },
   "dbeaver": {
     "name": "dbeaver",
