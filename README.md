@@ -55,10 +55,10 @@ In development
 | Name | Version | Date | Release |
 |------|---------|------|---------|
 | vscode | 1.101.2 | 2025-06-25 | [May 2025 Recovery 2](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) |
-| dbeaver | 25.1.1 | 2025-06-22 | [25.1.1](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
-| golang | 1.24.4 | 2025-07-06 | [1.24.4](https://golang.org/dl/go1.24.4.linux-amd64.tar.gz) |
+| dbeaver | 25.1.2 | 2025-07-06 | [25.1.2](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
+| golang | 1.24.4 | 2025-07-07 | [1.24.4](https://golang.org/dl/go1.24.4.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2025-07-06 13:00:01.721295](versions.json)
+[versions.json updated @ 2025-07-07 02:30:07.707283](versions.json)
 
 
 ## Testing branch
