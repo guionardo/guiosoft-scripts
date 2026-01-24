@@ -29,4 +29,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: '["README.md", "versions.json"]'
-          message: "Updated README.md software versions"
+          message: "[AUTO-COMMIT] Updated README.md software versions"
