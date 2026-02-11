@@ -1,10 +1,10 @@
 {
   "vscode": {
     "name": "vscode",
-    "version": "1.109.1",
-    "release_name": "January 2026 Recovery 1",
+    "version": "1.109.2",
+    "release_name": "January 2026 Recovery 2",
     "artifact_url": "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64",
-    "release_date": "2026-02-10 18:30:40+00:00"
+    "release_date": "2026-02-11 03:24:57+00:00"
   },
   "dbeaver": {
     "name": "dbeaver",
