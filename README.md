@@ -58,7 +58,7 @@ In development
 | dbeaver | 25.3.5 | 2026-02-15 | [25.3.5](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
 | golang | 1.26.0 | 2026-02-21 | [1.26.0](https://golang.org/dl/go1.26.0.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2026-02-21 00:49:57.208997](versions.json)
+[versions.json updated @ 2026-02-21 12:42:05.622067](versions.json)
 
 
 ## Testing branch
