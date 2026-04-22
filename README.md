@@ -54,11 +54,11 @@ In development
 
 | Name | Version | Date | Release |
 |------|---------|------|---------|
-| vscode | 0.44.2 | 2026-04-20 | [copilot/0.44.2](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) |
+| vscode | 1.117.0 | 2026-04-22 | [1.117.0](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) |
 | dbeaver | 26.0.3 | 2026-04-19 | [26.0.3](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) |
 | golang | 1.26.2 | 2026-04-22 | [1.26.2](https://golang.org/dl/go1.26.2.linux-amd64.tar.gz) |
 
-[versions.json updated @ 2026-04-22 01:01:09.974813](versions.json)
+[versions.json updated @ 2026-04-22 12:47:02.669497](versions.json)
 
 
 ## Testing branch
